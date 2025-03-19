@@ -99,7 +99,7 @@
 
 	```
 	dependencies {
-		compileOnly group: "com.liferay.portal", name: "release.dxp.api", version "2025.q1.2-lts"
+		compileOnly group: "com.liferay.portal", name: "release.dxp.api", version: "2025.q1.2"
 	}
 	```
 
@@ -126,7 +126,7 @@
 	}
 
 	dependencies {
-		compileOnly group: "com.liferay.portal", name: "release.dxp.api", version "2025.q1.2-lts"
+		compileOnly group: "com.liferay.portal", name: "release.dxp.api", version: "2025.q1.2"
 		compileOnly project(":h7g5-api")
 	}
 
@@ -475,7 +475,7 @@
 
 	```
 	dependencies {
-		compileOnly group: "com.liferay.portal", name: "release.dxp.api", version: "2025.q1.2-lts"
+		compileOnly group: "com.liferay.portal", name: "release.dxp.api", version: "2025.q1.2"
 		compileOnly project(":h7g5-api")
 	}
 	```
