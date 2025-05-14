@@ -120,7 +120,7 @@
 	```
 	apply plugin: "com.liferay.portal.tools.service.builder"
 	
-	tasks.named(buildService) {
+	buildService {
 		apiDir = "../h7g5-api/src/main/java"
 		testDir = "../h7g5-test/src/testIntegration/java"
 	}
