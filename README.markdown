@@ -87,7 +87,7 @@
 
 1. Type ***mkdir -p h7g5-api***. The prefix ***h7g5*** is just a random name used for this tutorial.
 
-1. Type ***osub h7g5-api/bnd.bnd*** and paste the following code.
+1. Type ***code h7g5-api/bnd.bnd*** and paste the following code.
 
 	```
 	Bundle-Name: Liferay H7G5 API
@@ -95,7 +95,7 @@
 	Bundle-Version: 1.0.0
 	```
 
-1. Type ***osub h7g5-api/build.gradle*** and paste the following code.
+1. Type ***code h7g5-api/build.gradle*** and paste the following code.
 
 	```
 	dependencies {
@@ -107,7 +107,7 @@
 
 1. Type ***mkdir -p h7g5-service/src***.
 
-1. Type ***osub h7g5-service/bnd.bnd*** and paste the following code.
+1. Type ***code h7g5-service/bnd.bnd*** and paste the following code.
 
 	```
 	Bundle-Name: Liferay H7G5 Service
@@ -115,7 +115,7 @@
 	Bundle-Version: 1.0.0
 	```
 
-1. Type ***osub h7g5-service/build.gradle*** and paste the following code.
+1. Type ***code h7g5-service/build.gradle*** and paste the following code.
 
 	```
 	apply plugin: "com.liferay.portal.tools.service.builder"
@@ -132,7 +132,7 @@
 
 1. Type ***./gradlew h7g5-service:classes && la h7g5-service/build*** to verify that h7g5-service was created properly.
 
-1. Type ***osub h7g5-service/service.xml*** and paste the following code.
+1. Type ***code h7g5-service/service.xml*** and paste the following code.
 
 	```
 	<?xml version="1.0"?>
@@ -420,7 +420,7 @@
 
 1. Type ***mkdir -p h7g5-web/src/main/java/com/liferay/h7g5/web/internal/portlet***.
 
-1. Type ***osub h7g5-web/src/main/java/com/liferay/h7g5/web/internal/portlet/H7G5Portlet.java*** and paste the following code.
+1. Type ***code h7g5-web/src/main/java/com/liferay/h7g5/web/internal/portlet/H7G5Portlet.java*** and paste the following code.
 
 	```
 	package com.liferay.h7g5.web.internal.portlet;
@@ -463,7 +463,7 @@
 	}
 	```
 
-1. Type ***osub h7g5-web/bnd.bnd*** and paste the following code.
+1. Type ***code h7g5-web/bnd.bnd*** and paste the following code.
 
 	```
 	Bundle-Name: Liferay H7G5 Web
@@ -471,7 +471,7 @@
 	Bundle-Version: 1.0.0
 	```
 
-1. Type ***osub h7g5-web/build.gradle*** and paste the following code.
+1. Type ***code h7g5-web/build.gradle*** and paste the following code.
 
 	```
 	dependencies {
@@ -493,7 +493,7 @@
 	Invoking H7G5Portlet#doView
 	```
 
-1. Type ***osub h7g5-web/src/main/java/com/liferay/h7g5/web/internal/portlet/H7G5Portlet.java*** and paste the following code.
+1. Type ***code h7g5-web/src/main/java/com/liferay/h7g5/web/internal/portlet/H7G5Portlet.java*** and paste the following code.
 
 	```
 	package com.liferay.h7g5.web.internal.portlet;
@@ -755,7 +755,7 @@
 
 1. Type ***g ls-files \*\*service.xml | wc -l***
 
-1. Type ***osub \`g ls-files \*\*service.xml\`*** to open up every service.xml file. Scan through them.
+1. Type ***code \`g ls-files \*\*service.xml\`*** to open up every service.xml file. Scan through them.
 
 ## Mastering Service Builder
 
